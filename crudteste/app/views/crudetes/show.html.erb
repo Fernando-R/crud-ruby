@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @crudete.nome %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @crudete.email %>
+</p>
+
+<%= link_to 'Edit', edit_crudete_path(@crudete) %> |
+<%= link_to 'Back', crudetes_path %>

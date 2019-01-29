@@ -1,0 +1,2 @@
+class Crudete < ApplicationRecord
+end
